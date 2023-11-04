@@ -112,6 +112,8 @@ There are also a few additional options provided with this CMake module that you
 | JAUT_BUILD_TESTS     | Build unit tests for the Jaut bundle                                                                                                                   | OFF     |
 | JAUT_BUILD_EXAMPLES  | Build examples for the Jaut bundle                                                                                                                     | OFF     |
 | JAUT_CLONE_JUCE      | Whether JUCE should be cloned for Jaut specifically, this will majorly be used for standalone builds of the module bundle like testing or development  | OFF     |
+| JAUT_EXAMPLE_LIST    | A semicolon-separated list of example names to build if JAUT_BUILD_EXAMPLES is enabled.                                                                |         |
+| JAUT_TEST_LIST       | A semicolon-separated list of test names to run if JAUT_BUILD_TESTS is enabled.                                                                        |         |
 
 ### Projucer
 Add the module of interest to the module section of the Projucer. (the little '+' in the corner of the module list)
